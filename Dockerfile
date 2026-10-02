@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:nonexistent-week9-test
 
 COPY app/index.html /usr/share/nginx/html/index.html
 
